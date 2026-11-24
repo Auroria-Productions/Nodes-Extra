@@ -1,0 +1,20 @@
+# Nodes-Military v1.1.0
+# Requires milzzynodes. Nodes-Extra is optional and read-only.
+military:
+  requireMarshalAuthority: true
+  maxArmiesPerNation: 6
+  maxDivisionsPerArmy: 8
+  maxMembersPerDivision: 50
+  supply:
+    maxTerritoryHops: 12
+# Citizens see their own nation, division, enlistment and supply reports.
+# Management buttons are shown only to the authorised hierarchy.
+gui:
+  enabled: true
+  title: "Nodes Military"
+map:
+  exportPublicData: true
+storage:
+  saveIntervalSeconds: 120
+  stateFilename: state.json
+  publicFilename: public.json
